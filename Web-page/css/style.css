@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Raleway|Open+Sans&display=swap');
+
+
+header{
+    font-family: "Montserrat";
+    padding-left:10rem;
+    padding-right:10rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    color:#a41d23;
+    
+}
+header h2, header h3, header h4{
+    text-align: center;
+}
+#logo{
+    width:20rem;
+    height:auto;
+    float:left;
+}
+#logout{
+    border-radius:10rem;
+    float: right;
+    margin-top: 4rem;
+    margin-right: 5rem;
+    padding-right: 5rem;
+    padding-left:5rem;
+    color:#a41d23;
+    border-width: 2px;
+    border-color: #a41d23;
+    background-color: white;
+}
+.btn-primary{
+    width:100%;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding-top:1.5rem;
+    padding-bottom: 1.5rem;
+    border-width: 0px;
+}
+.btn-primary:focus,.btn-primary:hover{
+    background-color: #a41d23;
+    
+}
+.container{
+    padding-left:15rem;
+    padding-right:15rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
